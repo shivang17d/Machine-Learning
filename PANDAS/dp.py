@@ -38,6 +38,8 @@ print("---------------------------------Read CSV--------------------------------
 ird = pd.read_csv("iris.data")
 print(ird)
 
+ird.columns =["sepal length","sepal width","petal length","petal width","class"]
+print(ird)
 
 
 
